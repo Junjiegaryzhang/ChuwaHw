@@ -1,0 +1,42 @@
+.barDiv{
+    height: 120px;
+}
+
+.bar {
+    border: 1px solid grey;
+    width: 500px;
+    height: 30px;
+    border: grey 1px solid;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.bar:hover {
+    border: grey 2px solid;
+}
+
+.search {
+    width: 20px;
+    height: 20px;
+    margin: 5px 0px 5px 5px;
+    flex-grow: 1;
+    text-align:center;
+}
+
+.mic {
+    width: 20px;
+    height: 20px;
+    margin: 5px 10px 5px 10px;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.barInput {
+    border: none;
+    outline: none;
+    flex-grow: 8;
+}
+
