@@ -4,7 +4,7 @@
     margin:auto;
 }
 
-td, th{
+td, th {
     border: 1px solid black;
     text-align: center;
     
@@ -14,7 +14,7 @@ tr:nth-child(even) {
     background-color: grey;
 }
 
-tr:hover{
+tr:hover {
     background-color: yellow;
     cursor: pointer;
 }
