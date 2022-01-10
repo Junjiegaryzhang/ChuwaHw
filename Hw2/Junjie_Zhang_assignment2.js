@@ -28,6 +28,8 @@ console.log(JSON.stringify(newArrayReduce));
 
 const string =' Perhaps The Easiest-to-understand   Case   For Reduce Is   To Return The Sum Of  All The Elements In  An Array  ';
 
-const newString = string.toLowerCase().trim().replace(/\s{2,}|[^a-z]/g, ' ');
+//const newString = string.toLowerCase().trim().replace(/\s{2,}|[^a-z]/g, ' ');
+
+const newString = string.trim().split(/[ -]+/).join(' ').toLowerCase();
 
 console.log(JSON.stringify(newString));
