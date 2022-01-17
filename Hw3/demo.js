@@ -111,9 +111,16 @@ dropdownListContainer.append(dropDownListSelect);
 dropDownListSelect.id = "city";
 dropDownListSelect.name = "city";
 
-const newDropDownList = dropDownList.map((x) => {
+// const newDropDownList = dropDownList.map((x) => {
+//   const option = document.createElement("option");
+//   option.textContent = x.content;
+//   option.value = x.value;
+//   dropDownListSelect.append(option);
+// });
+
+const newDropDownList = dropDownList.map(({ value, content }) => {
   const option = document.createElement("option");
-  option.textContent = x.content;
-  option.value = x.value;
+  option.textContent = content;
+  option.value = value;
   dropDownListSelect.append(option);
 });

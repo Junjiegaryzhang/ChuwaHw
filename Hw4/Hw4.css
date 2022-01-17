@@ -1,0 +1,22 @@
+.form {
+  margin-bottom: 10px;
+}
+
+.todoList {
+  width: 250px;
+  border-top: 1px solid grey;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  margin-left: 10px;
+  width: 50px;
+}
